@@ -226,7 +226,7 @@ class programa(QtGui.QWidget):
             self.ui.error.setText("please only numbers")
 
     def converter_mmhg_to_(self):
-        
+
         try:
 
             a = float(self.ui.entrada.text())
